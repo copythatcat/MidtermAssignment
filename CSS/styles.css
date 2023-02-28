@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header,footer{
+    position: absolute;
+    background-color: rgb(100, 154, 100);
+    width: 100%;
+    margin: 0 auto 0;
+    color: rgb(255, 255, 255);
+}
+
+header h2{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    font-size: 2em;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+header{
+    height: 150px;
+}
+
+header #logo{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.nav{
+    position: absolute;
+    top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6em;
+    width: 100%;
+    height: 70px;
+    border: 2px solid rgb(239, 239, 169);
+    background-color: rgb(239, 239, 169);
+    font-size: 2em;
+    font-weight: 1000;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    row-gap: 0px;
+}
+
+a{ 
+    color: rgb(5, 88, 11);
+    text-decoration: none;
+}
+
+.intro img{
+    position: relative;
+    top: 220px;
+    width: 100%;
+}
+
+.info-columns{
+    display: flex;
+    gap: 1em;
+    position: relative;
+    top: 215px;
+    padding: 30px;
+    background-color: rgb(253, 238, 220);
+}
+
+.info-columns > * {
+    flex: 1;
+    font-size: 30px;
+}
+
+.info-columns ul{
+    font-size: 22px;
+    padding: 20px;
+    margin-left: 120px;
+}
+
+.info-columns h2{
+    color: rgb(5, 88, 11);
+    margin-left: 90px;
+}
+
+.info-columns h1{
+    color: rgb(5, 88, 11);
+}
+
+.info-columns > * {
+    flex: 1;
+    font-size: 30px;
+}
+
+.coffee{
+    display: flex;
+    gap: 1em;
+    position: relative;
+    top: 215px;
+    padding: 30px;
+    background-color: rgb(242, 222, 212);
+}
+
+.coffee article{
+    padding: 10px;
+    left: 50px;
+}
+
+
+.coffee img{
+    width: 100%;
+}
+
+.coffee h1{
+    color: rgb(5, 88, 11);
+    font-size: 30px;
+}
+
+.coffee p{
+    color: rgb(5, 88, 11);
+    font-size: 20px;
+}
+
+.coffee a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer{ 
+    position: relative;
+    top: 215px;
+    height: 65px;
+}
+
+footer h3{
+    position: relative;
+    top: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: lighter;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: underline;
+}
+
+footer img{
+    position: absolute;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    height: 30%;
+    left: 208px;
+    top: 20px;
+    
+}
